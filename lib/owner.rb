@@ -61,7 +61,7 @@ class Owner
       dog.owner = nil
     }
     cats.each { |cat|
-      cat.mood = "happy"
+      cat.mood = "nervous"
       cat.owner = nil
     }
   end
