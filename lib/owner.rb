@@ -18,5 +18,8 @@ class Owner
   end
 
   def self.count
+    count = 0
+    @@all.each { count += 1
+    count}
   end
 end
