@@ -22,4 +22,8 @@ class Owner
     @@all.each { count += 1 }
     count
   end
+
+  def self.reset_all
+    @@all = []
+  end
 end
