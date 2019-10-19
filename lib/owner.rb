@@ -65,4 +65,12 @@ class Owner
       cat.owner = nil
     }
   end
+
+  def list_pets
+    dog_count = 0
+    cat_count = 0
+
+    dogs.each{ dog_count +=1 }
+    cat.each{ cat_count +=1 }
+  end
 end
