@@ -71,7 +71,7 @@ class Owner
     cat_count = 0
 
     dogs.each{ dog_count +=1 }
-    cat.each{ cat_count +=1 }
+    cats.each{ cat_count +=1 }
 
     "I have #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
